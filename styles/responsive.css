@@ -1,0 +1,581 @@
+@media (max-width:1400px) {
+
+    .form-links span {
+        margin-top: 0;
+    }
+
+    .form button {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:1024px) {
+
+    .about__avatar-container {
+        width: 28rem;
+        height: 28rem;
+    }
+}
+
+@media (max-width:992px) {
+
+    .sidebar-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sidebar-item span {
+        display: none;
+    }
+
+    .about__avatar-container {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .about__more p:last-child,
+    .about__more p:nth-child(2) {
+        display: none !important;
+    }
+
+    .about__skill span {
+        font-size: 1.4rem;
+    }
+
+    .resume-page {
+        padding: 3rem;
+    }
+
+
+    .product__title {
+        font-size: 1.8rem;
+    }
+
+    .product__rate {
+        gap: 0.8rem;
+    }
+
+    .product__rate-icon svg {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .product__del {
+        font-size: 1.6rem;
+    }
+
+    .product__offer {
+        font-size: 1.8rem;
+    }
+
+    .product__btn {
+        font-size: 1.8rem;
+    }
+
+    .cart__btn {
+        padding: 0.6rem 7rem;
+        font-size: 1.8rem;
+    }
+
+    .cart__discount {
+        width: 45%;
+    }
+}
+
+@media (max-width:768px) {
+
+    * {
+        cursor: none;
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sidebar--show {
+        width: 100%;
+    }
+
+    .content--open {
+        width: 0;
+        height: 0;
+        opacity: 0;
+        border: none;
+        left: 50rem;
+    }
+
+    .sidebar-item span {
+        display: block;
+    }
+
+    .home-page {
+        padding: 2rem;
+    }
+
+    .home-page__head {
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .home-page__logo {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .home-page__title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .home-page__title span {
+        font-size: 2.2rem;
+    }
+
+    .home-page__caption {
+        font-size: 1.6rem;
+    }
+
+    .home-page__link {
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+    }
+
+    .about-page {
+        padding: 1rem;
+    }
+
+    .about__top {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .about__avatar-container {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .about__title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about__description {
+        margin-bottom: 1rem;
+    }
+
+    .about__description p {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .about__more {
+        display: none !important;
+    }
+
+    .about__button {
+        display: none;
+    }
+
+    .contact__title {
+        margin-bottom: 2rem;
+    }
+
+    .contact__form {
+        gap: 2rem;
+    }
+
+    .contact__container {
+        flex-direction: column;
+    }
+
+    .contact__side p {
+        font-size: 1.6rem;
+    }
+
+    .contact__side--left,
+    .contact__side--right {
+        transform: none;
+    }
+
+    .service__box {
+        width: 20rem;
+    }
+
+    .resume-page {
+        padding: 2rem;
+    }
+
+    .services__plus-layout {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+        height: 30rem;
+        margin-top: 5rem;
+    }
+
+    .service__box {
+        padding: 1rem;
+        position: static;
+    }
+
+    .service__box:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .service__icon {
+        font-size: 2.5rem;
+    }
+
+    .service__box h3 {
+        font-size: 2.2rem;
+    }
+
+    .box-top,
+    .box-left,
+    .box-right,
+    .box-bottom {
+        transform: none;
+    }
+
+    .form button {
+        margin-bottom: 1;
+    }
+
+
+    .store-page__title {
+        font-size: 2rem;
+    }
+
+    .store-page__btn {
+        padding: 0.8rem 2rem;
+        font-size: 1.6rem;
+    }
+
+    .store-page__btn svg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+
+    .product__banner {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .product__title {
+        font-size: 1.6rem;
+    }
+
+    .product__rate {
+        gap: 0.5rem;
+    }
+
+    .product__rate-icon svg {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    .product__del {
+        font-size: 1.3rem;
+    }
+
+    .product__offer {
+        font-size: 1.6rem;
+    }
+
+    .product__btn {
+        font-size: 1.6rem;
+    }
+
+    .cart__btn {
+        padding: 0.6rem 6rem;
+        font-size: 1.8rem;
+    }
+
+    .cart__discount {
+        width: 40%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .wellcome-page__title {
+        font-size: 1.8rem;
+    }
+
+    .wellcome-page__title span:first-child {
+        font-size: 4rem;
+    }
+
+    .wellcome-page__title span:last-child {
+        font-size: 1.2rem;
+        top: 5rem;
+        left: 3rem;
+    }
+
+    .wellcome-page__discription {
+        font-size: 1.6rem;
+    }
+
+    .home-page__head {
+        gap: 1rem;
+    }
+
+    .home-page__logo {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .home-page__title {
+        font-size: 2.2rem;
+    }
+
+    .home-page__title span {
+        font-size: 2rem;
+    }
+
+    .home-page__caption {
+        margin-bottom: 1rem;
+    }
+
+    .home-page__links {
+        margin-top: 3rem;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .home-page__link {
+        width: 100%;
+    }
+
+    .about__top {
+        margin-bottom: 1.5rem;
+    }
+
+    .contact__side--left {
+        display: none;
+    }
+
+    .contact__title {
+        margin-bottom: 3rem;
+    }
+
+    .contact__form {
+        gap: 2rem;
+    }
+
+    .contact__input,
+    .contact__textarea {
+        padding: 1.5rem;
+    }
+
+    .contact__email-btn {
+        font-size: 1.4rem;
+    }
+
+    .service__icon {
+        font-size: 2.2rem;
+    }
+
+    .service__box h3 {
+        font-size: 1.8rem;
+    }
+
+    .store-page__title {
+        font-size: 1.6rem;
+    }
+
+    .store-page__btn {
+        padding: 0.8rem 1.6rem;
+    }
+
+    .store-page__btn svg {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    .cart__slider {
+        height: 20rem;
+    }
+
+    .cart__price,
+    .cart__label {
+        font-size: 1.8rem;
+    }
+
+    .cart__btn {
+        padding: 0.6rem 5rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:510px) {
+
+    .services__plus-layout {
+        margin-top: 0;
+        overflow-y: auto;
+        height: 40rem;
+    }
+
+    .service__box {
+        width: 100%;
+    }
+
+    .form h2 {
+        font-size: 1.6rem;
+    }
+
+    .form input {
+        padding: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .form button {
+        margin-bottom: 0;
+    }
+
+    .form__row-inputs {
+        display: block;
+    }
+
+    .form__row-inputs input {
+        width: 100%;
+    }
+
+    .form button {
+        font-size: medium;
+    }
+
+    .captcha {
+        font-size: 1.6rem;
+    }
+
+    .store-page__title {
+        font-size: 1.4rem;
+    }
+
+    .store-page__btn {
+        padding: .8em .8em;
+        border-radius: 100%;
+    }
+
+    .store-page__btn span {
+        display: none;
+    }
+
+    .store-page__btn svg {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    .transactions-info__item {
+        font-size: 1.6rem;
+    }
+
+    .transaction {
+        font-size: 1.4rem;
+    }
+
+
+    .cart__slider {
+        height: 16rem;
+    }
+
+    .cart__info {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .cart__price-wrapper,
+    .cart__discount {
+        width: 100%;
+    }
+
+    .cart__btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:450px) {
+
+    .content-wrapper {
+        height: 46rem;
+    }
+
+    .wellcome-page__title {
+        font-size: 1.6rem;
+    }
+
+    .wellcome-page__title span:first-child {
+        font-size: 3rem;
+    }
+
+    .wellcome-page__title span:last-child {
+        font-size: 1rem;
+        top: 4rem;
+        left: 2rem;
+    }
+
+    .wellcome-page__discription {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .home-page {
+        padding: 1rem;
+    }
+
+    .home-page__logo {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .home-page__title {
+        font-size: 2rem;
+    }
+
+    .home-page__title span {
+        font-size: 1.8rem;
+    }
+
+    .home-page__caption {
+        font-size: 1.4rem;
+    }
+
+    .home-page__links {
+        margin-top: 2rem;
+    }
+
+    .about__avatar-container {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .transaction__status span {
+        display: none;
+    }
+
+    .store-page__btn {
+        padding: .5em .5em;
+        border-radius: 100%;
+    }
+
+    .store-page__btn span {
+        display: none;
+    }
+
+    .store-page__btn svg {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+}
