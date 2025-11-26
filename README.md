@@ -25,6 +25,6 @@ This project serves as a practice environment for improving frontend skills whil
 
 ## 🤝 Authors
 
-(YOUR_GITHUB_USERNAME)
+[WeBeato](https://github.com/WeBeato/)
 
-(FRIEND_GITHUB_USERNAME)
+[Its-ech](https://github.com/Its-ech)
