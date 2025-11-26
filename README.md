@@ -28,3 +28,8 @@ This project serves as a practice environment for improving frontend skills whil
 [WeBeato](https://github.com/WeBeato/)
 
 [Its-ech](https://github.com/Its-ech)
+
+## Live Demo
+[👉 View on GitHub Pages](https://webeato.github.io/Alpha-Code/)
+
+
